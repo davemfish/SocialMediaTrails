@@ -1,0 +1,38 @@
+Arguments:
+aoi_path           C:/Users/Matt Dunbar/Documents/PythonProjects/SocialMediaTrails/matt/AOI_Files/All_NPS_Park_Bounds_Ranked_Rank_05.shp
+cell_size          1000.0
+compute_regression False
+end_year           2014
+grid_aoi           True
+grid_type          hexagon
+results_suffix     05_1000_2005_2014
+start_year         2005
+workspace_dir      C:\Users\Matt Dunbar\Documents\PythonProjects\SocialMediaTrails\matt\OUTPUT
+
+
+09/14/2017 16:55:25  root               INFO     Logging will be saved to natcap.invest.recreation.recmodel_client-log-2017-09-14--16_55_25.txt
+09/14/2017 16:55:25  root               DEBUG    Loaded the model from natcap.invest.recreation.recmodel_client
+09/14/2017 16:55:25  root               INFO     Executing the loaded model
+09/14/2017 16:55:25  root               INFO     Running InVEST version "3.3.3"
+09/14/2017 16:55:25  root               INFO     Python architecture: ('32bit', 'WindowsPE')
+09/14/2017 16:55:25  root               INFO     Disk space remaining for workspace: 110.82 GB
+09/14/2017 16:55:25  root               INFO     Pointing temporary directory at the workspace at C:\Users\Matt Dunbar\Documents\PythonProjects\SocialMediaTrails\matt\OUTPUT
+09/14/2017 16:55:25  root               INFO     Starting natcap.invest.recreation.recmodel_client
+09/14/2017 16:55:25  root               INFO     Setting tempfile.tempdir to C:\Users\Matt Dunbar\Documents\PythonProjects\SocialMediaTrails\matt\OUTPUT\tmp
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     Contacting server, please wait.
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     Server online, version: 3.3.2:./recserver_cache/0c010b5f4a698db8_fast_hash.pickle
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     Server supports year queries between 2005 and 2014
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     gridding aoi
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     archiving C:\Users\Matt Dunbar\Documents\PythonProjects\SocialMediaTrails\matt\OUTPUT\aoi_05_1000_2005_2014.prj
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     archiving C:\Users\Matt Dunbar\Documents\PythonProjects\SocialMediaTrails\matt\OUTPUT\aoi_05_1000_2005_2014.shp
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     archiving C:\Users\Matt Dunbar\Documents\PythonProjects\SocialMediaTrails\matt\OUTPUT\aoi_05_1000_2005_2014.shx
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     archiving C:\Users\Matt Dunbar\Documents\PythonProjects\SocialMediaTrails\matt\OUTPUT\aoi_05_1000_2005_2014.dbf
+09/14/2017 16:55:25  natcap.invest.recmodel_client INFO     Please wait for server to calculate PUD...
+09/14/2017 16:55:55  natcap.invest.recmodel_client INFO     received result, took 29.381000 seconds, workspace_id: c82bcfa4-2f84-4c54-a81f-f3e7917a849f
+09/14/2017 16:55:55  natcap.invest.recmodel_client INFO     deleting temporary files
+09/14/2017 16:55:55  root               INFO     Resetting tempfile.tempdir to c:\users\mattdu~1\appdata\local\temp
+09/14/2017 16:55:55  root               INFO     Opening file explorer to workspace directory
+09/14/2017 16:55:55  root               INFO     Using windows explorer to view files
+09/14/2017 16:55:55  root               INFO     Disk space free: 110.82 GB
+09/14/2017 16:55:55  root               INFO     Elapsed time: 30.08s
+09/14/2017 16:55:55  root               INFO     Finished.
