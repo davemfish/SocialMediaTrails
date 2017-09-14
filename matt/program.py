@@ -1,27 +1,31 @@
 """"
 This is a saved model run from natcap.invest.recreation.recmodel_client.
-Generated: Mon 28 Nov 2016 09:24:28 AM
-InVEST version: 3.3.1b1.post10+nff1c8fdca089
+Generated: 09/14/17 11:21:55
+InVEST version: 3.3.3
 """
-
 import natcap.invest.recreation.recmodel_client
-# natcap.invest source code available here:
-# https://bitbucket.org/natcap/invest/
 
-# 'aoi_path' and 'workspace_dir' are required arguments
-args = {
-        u'aoi_path': u'', # path to a shapefile
-        u'grid_aoi': False,
-        u'grid_type': u'hexagon',
-        u'cell_size': 7000.0,
-        u'start_year': u'2005',
-        u'end_year': u'2014',
+
+def main():
+    #specify directory
+    #scan and save all shapefile (.shp) file names in directory
+    #iterate over list of all shapefiles (aoi's) and call invest rec model
+    #output naming convention, includes order in name
+
+    args = {
+        u'aoi_path': u'C:/Users/Matt Dunbar/Documents/PythonProjects/SocialMediaTrails/matt/AOI_Files/GlacierNP_AlbersCONUS.shp',
+        u'cell_size': 700.0,
         u'compute_regression': False,
-        u'predictor_table_path': u'',
-        u'scenario_predictor_table_path': u'',
-        u'results_suffix': u'',
-        u'workspace_dir': u'', # path to a directly
-}
+        u'end_year': u'2014',
+        u'grid_aoi': True,
+        u'grid_type': u'hexagon',
+        u'results_suffix': 'GlacierNP_2005_2014_700',
+        u'start_year': u'2005',
+        u'workspace_dir': u'C:\\Users\\Matt Dunbar\\Documents\\PythonProjects\\SocialMediaTrails\\matt\\OUTPUT',
+    }
+
+    natcap.invest.recreation.recmodel_client.execute(args)
 
 if __name__ == '__main__':
-    natcap.invest.recreation.recmodel_client.execute(args)
+    main()
+
