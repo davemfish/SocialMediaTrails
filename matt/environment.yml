@@ -1,0 +1,12 @@
+name: natcap.invest
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python=2.7
+
+# see invest installation documentation : http://invest.readthedocs.io/en/latest/installing.html
+# windows requires MSVC compiler: https://www.microsoft.com/en-us/download/details.aspx?id=44266
+#       pip:
+#       - natcap.invest
